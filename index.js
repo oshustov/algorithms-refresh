@@ -7,6 +7,7 @@ import { circularArrayLoop } from './FastAndSlowPointers/circularArrayLoop.js';
 import { findDuplicate } from './FastAndSlowPointers/findDuplicateNumber.js';
 import { isHappyNumber } from './FastAndSlowPointers/happyNumber.js';
 import { findRepeatedSequences } from './FastAndSlowPointers/SlidingWindow/repeatedDNA.js';
+import { longestRepeatingCharacterReplacement } from './FastAndSlowPointers/SlidingWindow/substringWithReplacements.js';
 
 //console.log(findSumOfThree([1, 2, 3, 4, 5] , 9));
 // let list = [69,8,49,106,116,112];
@@ -16,4 +17,5 @@ import { findRepeatedSequences } from './FastAndSlowPointers/SlidingWindow/repea
 // console.log(circularArrayLoop([1,2,-3,3,4,7,1]));
 // console.log(findDuplicate([1, 2, 3, 4, 3, 3]));
 // console.log(isHappyNumber(23));
-console.log(findRepeatedSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT", 2));
+//console.log(findRepeatedSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT", 2));
+console.log(longestRepeatingCharacterReplacement("aaaaaaaaaa", 2));
